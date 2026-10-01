@@ -1,4 +1,4 @@
-const VERSION='inspiration-offline-v2';
+const VERSION='inspiration-offline-v3';
 const SCOPE=new URL(self.registration.scope);
 const ROOT=SCOPE.pathname;
 const CORE=['./','./manifest.webmanifest','./favicon.svg','./icon-192.png','./icon-512.png'].map(path=>new URL(path,SCOPE).pathname);
